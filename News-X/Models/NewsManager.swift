@@ -12,7 +12,7 @@ class NewsManager: ObservableObject {
 
     @Published var articles: [NewsArticle] = []
     @Published var favoriteArticles: [NewsArticle] = []
-    private let apiKey = "9cf28d0bad1ac55b65605afc0c3f1b48"
+    private let apiKey = ""
     private let cacheKey = "cachedArticles"
     
 
